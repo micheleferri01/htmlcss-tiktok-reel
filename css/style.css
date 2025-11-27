@@ -140,6 +140,10 @@ a[class=".header-navbar-item"]{
 	align-items: center;
 }
 
+.interactive-sidebar-section :nth-child(2n){
+	font-size: 14px;
+}
+
 div .profile-pic{
 	margin-top: 10px;
 }
@@ -163,7 +167,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 10px;
+	padding: 5px 10px;
 	text-align: center;
 }
 
@@ -199,4 +203,49 @@ button{
 
 .footer-item:hover{
 	color: white;
+}
+
+/* Bonus */
+.central-header-navbar {
+	position: relative;
+}
+.badge-seguiti{
+	width: 10px;
+	height: 10px;
+	background-color: #642d60;
+	position: absolute;
+	translate: 145px 8px;
+	border-radius: 50%;
+}
+
+.sidebar div:first-child{
+	position: relative;
+}
+
+.profile-pic-plus{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	background-color: #f93050;
+	text-align: center;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	translate: 16px -16px;
+}
+.footer-item:nth-child(3){
+	position: relative;
+}
+.messages-badge{
+	color: white;
+	background-color:#f93050;
+	border-radius: 40%;
+	padding: 1px 8px;
+	position: absolute;
+	font-size: 10px;
+	top: 5px;
+	right:135px
 }
