@@ -119,3 +119,40 @@ a[class=".header-navbar-item"]{
 	color: white;
 	border-bottom: 3px white solid;
 }
+
+/* sidebar */
+.sidebar{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.profile-pic{
+	max-width:50px;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+
+.interactive-sidebar-section{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div .profile-pic{
+	margin-top: 10px;
+}
+
+.sidebar-icon{
+	margin: 10px 0 3px 0;
+	font-size: 28px;
+}
+
+.heart:hover{
+	color: rgb(254, 3, 40);
+}
+
+.favorite:hover{
+	color: yellow;
+}
